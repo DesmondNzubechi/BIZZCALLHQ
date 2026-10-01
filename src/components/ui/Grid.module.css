@@ -1,0 +1,26 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(var(--grid-columns, 1), minmax(0, 1fr));
+  gap: var(--grid-gap, var(--gap-md));
+}
+
+@media (min-width: 48rem) {
+  .grid {
+    grid-template-columns: repeat(
+      var(--grid-columns-tablet, var(--grid-columns, 1)),
+      minmax(0, 1fr)
+    );
+  }
+}
+
+@media (min-width: 64rem) {
+  .grid {
+    grid-template-columns: repeat(
+      var(
+        --grid-columns-desktop,
+        var(--grid-columns-tablet, var(--grid-columns, 1))
+      ),
+      minmax(0, 1fr)
+    );
+  }
+}

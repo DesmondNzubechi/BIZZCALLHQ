@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1067" viewBox="0 0 1600 1067" role="img" aria-label="Photograph placeholder for Co-packing: Kitting and bundling">
+  <rect width="1600" height="1067" fill="#EBE8E2"/>
+  <rect x="40" y="40" width="1520" height="987" fill="none" stroke="#D7D3CB" stroke-width="2"/>
+  
+    <rect x="250" y="500" width="280" height="200" fill="#F4F3EF" stroke="#1B4A46" stroke-width="3"/>
+    <rect x="580" y="460" width="280" height="240" fill="#F4F3EF" stroke="#1B4A46" stroke-width="3"/>
+    <rect x="910" y="520" width="360" height="180" fill="#F4F3EF" stroke="#1B4A46" stroke-width="3"/>
+    <path d="M300 560h180M300 600h140M630 540h180M630 580h120M980 580h240" stroke="#1B4A46" stroke-width="3"/>
+  <text x="80" y="120" fill="#1B4A46" font-family="Segoe UI, sans-serif" font-size="28" font-weight="600">Photograph placeholder</text>
+  <text x="80" y="168" fill="#5A635F" font-family="Segoe UI, sans-serif" font-size="22">Co-packing · Kitting and bundling</text>
+  <text x="80" y="980" fill="#5A635F" font-family="Segoe UI, sans-serif" font-size="18">Temporary — replace with a Bizcallhq photograph</text>
+</svg>

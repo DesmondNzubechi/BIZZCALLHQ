@@ -1,0 +1,139 @@
+.footer {
+  background: var(--color-inverse);
+  color: var(--color-on-inverse);
+  --color-text: var(--color-on-inverse);
+  --color-muted: var(--color-on-inverse-muted);
+  --color-border: rgb(244 243 239 / 0.18);
+  --color-focus: var(--color-on-inverse);
+  padding-block: var(--space-7) var(--space-6);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: var(--space-6);
+}
+
+.brand,
+.contact,
+.group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--space-4);
+  min-width: 0;
+}
+
+.description,
+.prompt,
+.copy {
+  margin: 0;
+}
+
+.description {
+  max-width: 22rem;
+  color: var(--color-muted);
+}
+
+.prompt {
+  max-width: 16rem;
+}
+
+.heading {
+  margin: 0;
+  color: var(--color-muted);
+  font-size: var(--text-caption);
+  font-weight: var(--font-weight-semibold);
+  letter-spacing: 0.08em;
+  line-height: var(--leading-snug);
+  text-transform: uppercase;
+}
+
+.list,
+.legal {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.link {
+  display: inline-flex;
+  align-items: center;
+  min-height: 2.75rem;
+  color: var(--color-on-inverse);
+  font-size: var(--text-body);
+  line-height: var(--leading-snug);
+  text-decoration: none;
+}
+
+.link:focus-visible {
+  outline: 2px solid var(--color-focus);
+  outline-offset: 3px;
+}
+
+.base {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-4);
+  margin-top: var(--space-6);
+  padding-top: var(--space-5);
+  border-top: 1px solid var(--color-border);
+}
+
+.copy {
+  color: var(--color-muted);
+  font-size: var(--text-body-sm);
+}
+
+.legal {
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: var(--space-3) var(--space-5);
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .link:hover {
+    text-decoration: underline;
+  }
+}
+
+@media (max-width: 36rem) {
+  .action {
+    align-self: stretch;
+    width: 100%;
+  }
+}
+
+@media (min-width: 48rem) {
+  .grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    column-gap: var(--space-6);
+  }
+}
+
+@media (min-width: 64rem) {
+  .grid {
+    grid-template-columns: minmax(16rem, 1.4fr) minmax(0, 1fr) minmax(0, 1fr) minmax(12rem, 0.9fr);
+  }
+
+  .brand {
+    grid-column: 1;
+  }
+
+  .services {
+    grid-column: 2;
+  }
+
+  .company {
+    grid-column: 3;
+  }
+
+  .contact {
+    grid-column: 4;
+  }
+}

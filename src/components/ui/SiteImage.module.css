@@ -1,0 +1,18 @@
+.frame {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  background: var(--color-surface-muted);
+  border-radius: var(--radius-md);
+}
+
+.cover {
+  object-fit: cover;
+}
+
+.intrinsic {
+  width: 100%;
+  height: auto;
+  background: var(--color-surface-muted);
+  border-radius: var(--radius-md);
+}

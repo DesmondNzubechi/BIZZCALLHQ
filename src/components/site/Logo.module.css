@@ -1,0 +1,45 @@
+.logo {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+  grid-column: 1;
+  grid-row: 1;
+  justify-self: start;
+  min-width: 0;
+  color: var(--color-text);
+  text-decoration: none;
+}
+
+.mark {
+  width: auto;
+  height: 2.25rem;
+  flex: none;
+}
+
+.wordmark {
+  display: block;
+  font-size: 1.2rem;
+  font-weight: var(--font-weight-semibold);
+  line-height: 1;
+  letter-spacing: -0.045em;
+  white-space: nowrap;
+}
+
+.inverse {
+  color: var(--color-on-inverse);
+}
+
+.logo:focus-visible {
+  outline: 2px solid var(--color-focus);
+  outline-offset: 3px;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .logo:hover {
+    color: var(--color-primary);
+  }
+
+  .inverse:hover {
+    color: var(--color-on-inverse);
+  }
+}

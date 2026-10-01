@@ -1,0 +1,31 @@
+.section {
+  scroll-margin-top: var(--header-offset);
+  background: var(--color-background);
+  color: var(--color-text);
+}
+
+.default {
+  padding-block: var(--section-space);
+}
+
+.compact {
+  padding-block: var(--section-space-compact);
+}
+
+.none {
+  padding-block: 0;
+}
+
+.section[data-surface="muted"] {
+  background: var(--color-surface-muted);
+}
+
+.section[data-surface="inverse"] {
+  background: var(--color-inverse);
+  color: var(--color-on-inverse);
+  --color-text: var(--color-on-inverse);
+  --color-muted: var(--color-on-inverse-muted);
+  --color-border: rgb(244 243 239 / 0.2);
+  --color-surface: rgb(244 243 239 / 0.06);
+  --color-focus: var(--color-on-inverse);
+}

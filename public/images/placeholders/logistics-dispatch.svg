@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1067" viewBox="0 0 1600 1067" role="img" aria-label="Photograph placeholder for Logistics: Dispatch preparation">
+  <rect width="1600" height="1067" fill="#EBE8E2"/>
+  <rect x="40" y="40" width="1520" height="987" fill="none" stroke="#D7D3CB" stroke-width="2"/>
+  
+    <rect x="240" y="480" width="240" height="180" fill="#F4F3EF" stroke="#1B4A46" stroke-width="3"/>
+    <rect x="530" y="480" width="240" height="180" fill="#F4F3EF" stroke="#1B4A46" stroke-width="3"/>
+    <rect x="820" y="480" width="240" height="180" fill="#F4F3EF" stroke="#1B4A46" stroke-width="3"/>
+    <rect x="1110" y="480" width="240" height="180" fill="#F4F3EF" stroke="#1B4A46" stroke-width="3"/>
+    <path d="M240 760h1120" stroke="#1B4A46" stroke-width="3"/>
+  <text x="80" y="120" fill="#1B4A46" font-family="Segoe UI, sans-serif" font-size="28" font-weight="600">Photograph placeholder</text>
+  <text x="80" y="168" fill="#5A635F" font-family="Segoe UI, sans-serif" font-size="22">Logistics · Dispatch preparation</text>
+  <text x="80" y="980" fill="#5A635F" font-family="Segoe UI, sans-serif" font-size="18">Temporary — replace with a Bizcallhq photograph</text>
+</svg>
