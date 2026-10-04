@@ -51,7 +51,7 @@ export const amazonFbaService = {
   label: "Amazon FBA",
   href: "/services#amazon-fba",
   summary:
-    "Prepare, label and pack inventory so it is ready for Amazon FBA.",
+    "Wholesale products for brands selling through Amazon FBA.",
 } as const;
 
 /** Core operational stages on the Services page. */

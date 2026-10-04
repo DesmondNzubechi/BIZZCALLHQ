@@ -7,10 +7,8 @@ import { quoteAction } from "@/lib/site";
 import styles from "./AmazonFba.module.css";
 
 const capabilities = [
-  // "Amazon FBA product sourcing",
-  // "Inventory management",
-  // "Warehousing and fulfillment",
-  // "Shipping to Amazon fulfillment centers",
+  "Amazon FBA wholesale"
+
 ] as const;
 
 export function AmazonFba() {
@@ -32,15 +30,12 @@ export function AmazonFba() {
           </Heading>
 
           <p className={`type-body-lg ${styles.lead}`}>
-            We support brands and wholesalers supplying products for Amazon
-            FBA, connecting product sourcing, inventory handling and logistics
-            to keep stock moving efficiently.
+            We wholesale products to brands selling through Amazon FBA.
           </p>
 
           <p className={styles.support}>
-            Bizcallhq manages the movement of products from suppliers and
-            warehouses to Amazon fulfillment centers, supported by our wider
-            warehousing, fulfillment and logistics operations.
+            Amazon FBA wholesale is part of the wider co-packing, warehousing,
+            fulfillment and logistics operation.
           </p>
 
           <ul className={styles.capabilities}>
@@ -48,14 +43,6 @@ export function AmazonFba() {
               <li key={item}>{item}</li>
             ))}
           </ul>
-
-          {/* <Button
-            href={quoteAction.href}
-            variant="secondary"
-            className={styles.cta}
-          >
-            {quoteAction.label}
-          </Button> */}
         </div>
 
         <SiteImage

@@ -19,9 +19,8 @@ export function HomeServices() {
           What the operation covers.
         </Heading>
        <p className={`type-body-lg measure ${styles.support}`}>
-  Amazon FBA is part of the wider co-packing, warehousing, fulfillment
-  and logistics operation.
-</p>
+       Amazon FBA wholesale is part of the wider co-packing, warehousing, fulfillment and logistics operation.
+</p> 
       </div>
 
       <Link className={styles.featured} href={amazonFbaService.href}>
