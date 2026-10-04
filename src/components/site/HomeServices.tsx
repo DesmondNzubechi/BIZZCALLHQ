@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { Heading, Section } from "@/components/ui";
-import { footerServices } from "@/lib/site";
+import { amazonFbaService, coreServices } from "@/lib/site";
 import styles from "./HomeServices.module.css";
 
 const summaries = [
@@ -19,12 +19,21 @@ export function HomeServices() {
           What the operation covers.
         </Heading>
         <p className={`type-body-lg measure ${styles.support}`}>
-          Co-packing, warehousing, fulfillment and logistics run as stages of
-          the same work.
+          Amazon FBA prep sits alongside co-packing, warehousing, fulfillment
+          and logistics in the same operation.
         </p>
       </div>
+
+      <Link className={styles.featured} href={amazonFbaService.href}>
+        <span className={styles.featuredEyebrow}>Featured</span>
+        <span className={styles.featuredTitle}>{amazonFbaService.label}</span>
+        <span className={styles.featuredDescription}>
+          {amazonFbaService.summary}
+        </span>
+      </Link>
+
       <ol className={styles.list}>
-        {footerServices.map((service, index) => (
+        {coreServices.map((service, index) => (
           <li key={service.href}>
             <Link className={styles.item} href={service.href}>
               <span className={styles.number} aria-hidden="true">

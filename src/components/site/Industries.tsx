@@ -20,7 +20,7 @@ const industries: readonly Industry[] = [
   {
     name: "E-commerce",
     description:
-      "Orders are picked, packed and prepared so the products can leave for customers.",
+      "Orders are picked, packed and prepared so the products can leave for customers, including inventory prepared for Amazon FBA.",
     image: images.industries.ecommerce,
   },
   {

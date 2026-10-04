@@ -131,6 +131,12 @@ export const images = {
       width: 1400,
       height: 933,
     },
+    amazonFba: {
+      src: "/images/services/fulfillment.jpg",
+      alt: "Workers preparing cartons at a packing station, ready for labeled inventory to leave the operation.",
+      width: 1100,
+      height: 733,
+    },
   },
   copacking: {
     labeling: placeholder(

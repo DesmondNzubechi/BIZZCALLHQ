@@ -6,9 +6,9 @@
 
 export const site = {
   name: "Bizcallhq",
-  title: "Bizcallhq | Co-Packing, Warehousing, Fulfillment and Logistics",
+  title: "Bizcallhq | Co-Packing, Warehousing, Fulfillment, Logistics and Amazon FBA",
   description:
-    "Bizcallhq provides co-packing, warehousing, fulfillment, and logistics for businesses that need reliable day-to-day operations.",
+    "Bizcallhq provides co-packing, warehousing, fulfillment, logistics, and Amazon FBA preparation for businesses that need reliable day-to-day operations.",
   /** Confirmed production origin. */
   url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.bizcallhq.com",
   email: "info@bizcallhq.com",
@@ -46,13 +46,24 @@ export const quoteAction = {
   href: "/contact",
 } as const;
 
-/** Service anchors live on the Services page. */
-export const footerServices = [
+/** Featured Amazon FBA offer. Anchors to the Services page highlight. */
+export const amazonFbaService = {
+  label: "Amazon FBA",
+  href: "/services#amazon-fba",
+  summary:
+    "Prepare, label and pack inventory so it is ready for Amazon FBA.",
+} as const;
+
+/** Core operational stages on the Services page. */
+export const coreServices = [
   { label: "Co-Packing", href: "/services#co-packing" },
   { label: "Warehousing", href: "/services#warehousing" },
   { label: "Fulfillment", href: "/services#fulfillment" },
   { label: "Logistics", href: "/services#logistics" },
 ] as const;
+
+/** Service anchors for the footer. Amazon FBA leads so it stays visible. */
+export const footerServices = [amazonFbaService, ...coreServices] as const;
 
 export const footerCompany = [
   { label: "Home", href: "/" },

@@ -1,7 +1,8 @@
 import { ImageResponse } from "next/og";
 import { site } from "@/lib/site";
 
-export const alt = "Bizcallhq. Co-packing, warehousing, fulfillment, and logistics.";
+export const alt =
+  "Bizcallhq. Amazon FBA, co-packing, warehousing, fulfillment, and logistics.";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
@@ -21,7 +22,7 @@ export default function OpenGraphImage() {
         }}
       >
         <div style={{ fontSize: 28, letterSpacing: "0.04em" }}>
-          Co-packing · Fulfillment · Logistics
+          Amazon FBA · Co-packing · Fulfillment · Logistics
         </div>
         <div style={{ display: "flex", flexDirection: "column", gap: 20 }}>
           <div style={{ fontSize: 84, fontWeight: 600, lineHeight: 1 }}>
@@ -35,7 +36,7 @@ export default function OpenGraphImage() {
             }}
           />
           <div style={{ fontSize: 32, lineHeight: 1.4, maxWidth: 820 }}>
-            Co-packing, warehousing, fulfillment, and logistics.
+            Amazon FBA, co-packing, warehousing, fulfillment, and logistics.
           </div>
         </div>
       </div>

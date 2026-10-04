@@ -4,6 +4,7 @@
  */
 
 export const quoteServices = [
+  "Amazon FBA",
   "Co-Packing",
   "Warehousing",
   "Fulfillment",

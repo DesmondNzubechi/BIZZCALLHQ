@@ -9,7 +9,7 @@ const industries = [
   },
   {
     name: "E-commerce",
-    description: "Orders that need to be picked, packed and prepared to leave.",
+    description: "Orders that need to be picked, packed, prepared to leave, or readied for Amazon FBA.",
   },
   {
     name: "Retail",

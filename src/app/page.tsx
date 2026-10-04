@@ -11,7 +11,7 @@ import { quoteAction } from "@/lib/site";
 
 export const metadata = createPageMetadata({
   description:
-    "Bizcallhq packs, stores, fulfills and moves products for businesses, from co-packing through warehousing, fulfillment and logistics.",
+    "Bizcallhq packs, stores, fulfills and moves products for businesses, including Amazon FBA preparation, co-packing, warehousing, fulfillment and logistics.",
 });
 
 export default function HomePage() {
@@ -19,16 +19,16 @@ export default function HomePage() {
     <>
       <PageHero
         id="home-heading"
-        eyebrow="Co-packing · Warehousing · Fulfillment · Logistics"
+        eyebrow="Co-packing · Warehousing · Fulfillment · Logistics · Amazon FBA"
         title="We pack, store, fulfill and move your products."
-        support="Bizcallhq handles the operational work behind a product, from packaging and storage through fulfillment and distribution."
+        support="Bizcallhq handles the operational work behind a product, from packaging and storage through fulfillment, distribution and Amazon FBA prep."
         image={images.heroes.home}
         imagePosition="68% 42%"
         actions={
           <>
             <Button href={quoteAction.href}>{quoteAction.label}</Button>
-            <Button href="/services" variant="secondary">
-              Explore Services
+            <Button href="/services#amazon-fba" variant="secondary">
+              Explore Amazon FBA
             </Button>
           </>
         }
