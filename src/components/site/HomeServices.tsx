@@ -18,10 +18,10 @@ export function HomeServices() {
         <Heading id="home-services-heading" level={2}>
           What the operation covers.
         </Heading>
-        <p className={`type-body-lg measure ${styles.support}`}>
-          Amazon FBA prep sits alongside co-packing, warehousing, fulfillment
-          and logistics in the same operation.
-        </p>
+       <p className={`type-body-lg measure ${styles.support}`}>
+  Amazon FBA is part of the wider co-packing, warehousing, fulfillment
+  and logistics operation.
+</p>
       </div>
 
       <Link className={styles.featured} href={amazonFbaService.href}>

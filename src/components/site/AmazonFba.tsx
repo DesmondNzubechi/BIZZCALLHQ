@@ -1,13 +1,16 @@
 import { Button, Heading, Section, SiteImage } from "@/components/ui";
+
 import { images } from "@/lib/images";
+
 import { quoteAction } from "@/lib/site";
+
 import styles from "./AmazonFba.module.css";
 
 const capabilities = [
-  "FBA labeling",
-  "Product prep",
-  "Kitting and bundling",
-  "Shipments to Amazon",
+  // "Amazon FBA product sourcing",
+  // "Inventory management",
+  // "Warehousing and fulfillment",
+  // "Shipping to Amazon fulfillment centers",
 ] as const;
 
 export function AmazonFba() {
@@ -20,28 +23,41 @@ export function AmazonFba() {
     >
       <article className={styles.panel}>
         <div className={styles.copy}>
-          <p className={`type-caption ${styles.eyebrow}`}>Featured service</p>
+          <p className={`type-caption ${styles.eyebrow}`}>
+            Featured service
+          </p>
+
           <Heading id="amazon-fba-heading" level={2}>
             Amazon FBA
           </Heading>
+
           <p className={`type-body-lg ${styles.lead}`}>
-            Inventory for Amazon FBA is prepared, labeled and packed so it is
-            ready to move into Amazon fulfillment centers.
+            We support brands and wholesalers supplying products for Amazon
+            FBA, connecting product sourcing, inventory handling and logistics
+            to keep stock moving efficiently.
           </p>
+
           <p className={styles.support}>
-            Bizcallhq handles the prep work sellers need before stock enters
-            Amazon&apos;s network, alongside the broader co-packing,
-            warehousing, fulfillment and logistics operation.
+            Bizcallhq manages the movement of products from suppliers and
+            warehouses to Amazon fulfillment centers, supported by our wider
+            warehousing, fulfillment and logistics operations.
           </p>
+
           <ul className={styles.capabilities}>
             {capabilities.map((item) => (
               <li key={item}>{item}</li>
             ))}
           </ul>
-          <Button href={quoteAction.href} variant="secondary" className={styles.cta}>
+
+          {/* <Button
+            href={quoteAction.href}
+            variant="secondary"
+            className={styles.cta}
+          >
             {quoteAction.label}
-          </Button>
+          </Button> */}
         </div>
+
         <SiteImage
           image={images.services.amazonFba}
           ratio="3 / 2"

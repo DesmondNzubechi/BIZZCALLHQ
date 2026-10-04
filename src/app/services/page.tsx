@@ -10,7 +10,7 @@ export const metadata = createPageMetadata({
   title:
     "Services | Amazon FBA, Co-Packing, Warehousing, Fulfillment and Logistics | Bizcallhq",
   description:
-    "Amazon FBA preparation, co-packing, warehousing, fulfillment and logistics from Bizcallhq, run as one sequence from receiving products through to delivery.",
+    "Amazon FBA, co-packing, warehousing, fulfillment and logistics from Bizcallhq, run as one sequence from receiving products through to delivery.",
   path: "/services",
 });
 
@@ -21,7 +21,7 @@ export default function ServicesPage() {
         id="services-heading"
         eyebrow="Services"
         title="From packaging to delivery, we handle the operation."
-        support="Bizcallhq provides Amazon FBA preparation alongside connected operational services for businesses that need products prepared, stored, fulfilled and moved."
+        support="Bizcallhq provides Amazon FBA alongside connected operational services for businesses that need products prepared, stored, fulfilled and moved."
         image={images.heroes.services}
         imagePosition="center"
       />

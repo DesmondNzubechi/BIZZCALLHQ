@@ -21,7 +21,7 @@ export default function HomePage() {
         id="home-heading"
         eyebrow="Co-packing · Warehousing · Fulfillment · Logistics · Amazon FBA"
         title="We pack, store, fulfill and move your products."
-        support="Bizcallhq handles the operational work behind a product, from packaging and storage through fulfillment, distribution and Amazon FBA prep."
+        support="Bizcallhq handles the operational work behind a product, from packaging and storage through fulfillment, distribution and Amazon FBA."
         image={images.heroes.home}
         imagePosition="68% 42%"
         actions={
