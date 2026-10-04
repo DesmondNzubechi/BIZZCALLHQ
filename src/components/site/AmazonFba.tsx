@@ -7,8 +7,7 @@ import { quoteAction } from "@/lib/site";
 import styles from "./AmazonFba.module.css";
 
 const capabilities = [
-  "Amazon FBA wholesale"
-
+  "Amazon FBA",
 ] as const;
 
 export function AmazonFba() {
@@ -30,11 +29,12 @@ export function AmazonFba() {
           </Heading>
 
           <p className={`type-body-lg ${styles.lead}`}>
-            We wholesale products to brands selling through Amazon FBA.
+            We purchase products wholesale from brands and sell them through
+            Amazon FBA.
           </p>
 
           <p className={styles.support}>
-            Amazon FBA wholesale is part of the wider co-packing, warehousing,
+            Amazon FBA is part of the wider co-packing, warehousing,
             fulfillment and logistics operation.
           </p>
 

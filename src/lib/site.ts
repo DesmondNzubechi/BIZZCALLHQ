@@ -51,7 +51,7 @@ export const amazonFbaService = {
   label: "Amazon FBA",
   href: "/services#amazon-fba",
   summary:
-    "Wholesale products for brands selling through Amazon FBA.",
+    "We purchase wholesale products from brands and sell them through Amazon FBA.",
 } as const;
 
 /** Core operational stages on the Services page. */
